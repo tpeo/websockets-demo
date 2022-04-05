@@ -20,3 +20,7 @@ There is no frontend in this demo but you can build one yourself :)
  `ws.onmessage = message => console.log(message)` : to retrieve and log messages from the server
 
  `ws.send(JSON.stringify({"message": "<YOUR MESSAGE>"}))`: to send a message to the server via websocket
+ 
+ 
+ ## Credits
+ Most code and ideas taken from this awesome Youtube video https://www.youtube.com/watch?v=2Nt-ZrNP22A
