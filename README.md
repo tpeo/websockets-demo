@@ -13,7 +13,7 @@ Run the backend by typing
 ## Frontend
 There is no frontend in this demo but you can build one yourself :)
 
- If you want to interact with the backend, you can open up a browser and type the following
+ If you want to interact with the backend, you can open up a browser, go to console, and type the following
 
  `let ws = new WebSocket("ws://localhost:5000")` : to create a new websocket connection
 
