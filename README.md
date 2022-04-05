@@ -23,4 +23,4 @@ There is no frontend in this demo but you can build one yourself :)
  
  
  ## Credits
- Most code and ideas taken from this awesome Youtube video https://www.youtube.com/watch?v=2Nt-ZrNP22A
+ Most code and ideas taken from this awesome Youtube video https://youtu.be/2Nt-ZrNP22A
