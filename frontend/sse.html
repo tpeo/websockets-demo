@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Sent Events</title>
+</head>
+<body>
+    <h3>Server Sent Events</h3>
+    <ul id="list"></ul>
+</body>
+<script>
+    let c = "somthing"
+    let SSE = new EventSource("http://localhost:3000/events") 
+    SSE.addEventListener("message", message=> {
+        let item = document.getElementById("list")
+        let new_item = document.createElement("li")
+        new_item.innerHTML= message.data
+        item.appendChild(new_item)
+    })
+</script>
+</html>
